@@ -6,6 +6,7 @@
 
 # Ignore bundler config.
 /.bundle
+vendor/bundle
 
 # Ignore all logfiles and tempfiles.
 /log/*
@@ -19,9 +20,16 @@
 
 /node_modules
 /yarn-error.log
+yarn-debug.log*
+.yarn-integrity
 
 /public/assets
+/public/spree
+/public/packs
+/public/packs-test
+
 .byebug_history
+.ruby-version
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
